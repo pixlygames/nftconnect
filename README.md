@@ -36,7 +36,7 @@ Choose the installation path that matches your server setup:
 If you only want to add NFT cars and are already using the standard QBcore framework for vehicles:
 
 1.  Place the `NFTconnect`, `store`, and `cars` folders into your server's `resources` directory.
-2.  Ensure `NFTconnect`, `store`, and `cars` are started in your `server.cfg` (or `resources.cfg`) *after* `qb-core` and other essential resources.
+2.  Ensure `NFTconnect`, `store`, and `cars` are started in your `server.cfg` *after* `qb-core` and other essential resources.
 3.  Add the NFT car model names to your `resources/[qb]/qb-core/shared/vehicles.lua` file. You can copy all the vehicle entries directly from the `vehicles.lua` file provided in the download package.
 
 That's it! NFT cars should now be set up.
