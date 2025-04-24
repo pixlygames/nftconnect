@@ -70,7 +70,7 @@ If you are setting up NFT cars and houses and do **not** currently use `ps-housi
 6.  To run the provided `properties.sql` script against your database.
     *   Open HeidiSQL and connect to your database.
     *   Click "File" -> "Load SQL file...".
-    *   Select the `properties_import.sql` file from the download package.
+    *   Select the `properties.sql` file from the download package.
     *   Click the "Execute SQL" button (looks like a blue play icon, or press F9).
     *   This script adds table and property data (locations, doors, images, descriptions, etc.) to your database.
 2.  **Add NFTconnect & Assets:** Once the base (modified) `ps-housing` is working, place the `[MLOs]`, `[shells]`, `store`, `NFTconnect`, and `cars` folders into your server's `resources` directory.
