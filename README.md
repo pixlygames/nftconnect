@@ -4,7 +4,8 @@ NFTconnect enables FiveM server owners using the QBcore framework to easily inte
 
 **Server owners earn 40% of every NFT sale made through the marketplace on their server.**
 
-Watch the DEMO: https://www.youtube.com/watch?v=qtUUVqL1xOs
+Watch the DEMO: https://www.youtube.com/watch?v=qtUUVqL1xOs.
+
 You can test here https://cfx.re/join/va57j5. Just press F12, connect your TON/Telegram wallet, and you’ll receive a free hotel room and a car to start the game.
 
 ## Overview
