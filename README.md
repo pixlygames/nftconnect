@@ -22,7 +22,7 @@ This solution consists of several components:
 
 ## Configuration (Mandatory)
 
-**IMPORTANT:** Before starting, you **MUST** configure the `NFTconnect` script with your public TON/Telegram wallet address. This takes about 30 seconds. Watch how: [https://www.youtube.com/watch?v=NYM9D2hg8Hw](https://www.youtube.com/watch?v=NYM9D2hg8Hw)
+**IMPORTANT:** Before starting, you **MUST** configure the `NFTconnect` script with your public TON/Telegram wallet address. Creating wallet takes about 30 seconds. Watch how: [https://www.youtube.com/watch?v=NYM9D2hg8Hw](https://www.youtube.com/watch?v=NYM9D2hg8Hw)
 
 1.  Open the `config.lua` file within the `NFTconnect` resource folder.
 2.  Find `Config.ServerBuyerWallet` and enter your public TON/Telegram wallet address.
@@ -66,7 +66,7 @@ If you want both NFT cars and houses, and you already have `ps-housing` installe
 If you are setting up NFT cars and houses and do **not** currently use `ps-housing`:
 
 1.  **Install Dependencies & Base ps-housing:** You first need to set up `ps-housing` and its dependencies.
-    *   (Optional) You can jst watch this tutorial for a visual guide on the original `ps-housing` setup: https://www.youtube.com/watch?v=yBb4RF9vNt4
+    *   (Optional) You can just watch this tutorial for a visual guide on the original `ps-housing` setup: https://www.youtube.com/watch?v=yBb4RF9vNt4
     *   **Or read the official `ps-housing` documentation** for dependencies and the standard installation process: https://github.com/Project-Sloth/ps-housing
     *   **Crucially:** When the instructions tell you to add the `ps-housing` and `ps-realtor` folders and run the SQL, use the **modified** `ps-housing` and `ps-realtor` folders and the `properties.sql` file provided in **our download package**, not the original ones.
 6.  To run the provided `properties.sql` script against your database.
