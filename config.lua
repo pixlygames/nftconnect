@@ -8,7 +8,7 @@ Config = {}
 -- URL of YOUR central Node.js verification server
 -- Server buyers MUST configure this correctly.
 -- Example: 'https://your-ton-verify.yourdomain.com'
-Config.CentralServerURL = 'URL'
+Config.CentralServerURL = 'https://nft.pixly.games/'
 
 -- REQUIRED for connection. This should be your public TON wallet address. Receives 40% share of all NFT sales from your server. 
 Config.ServerBuyerWallet = 'EQBmuQ8GKlpRja2lN6eXqhT1snEaqkmVOxh-lJ3elOFhxukl' -- Replace with YOUR TON wallet
