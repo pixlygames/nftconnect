@@ -1,6 +1,6 @@
 # NFTconnect for FiveM (QBcore Framework)
 
-NFTconnect enables FiveM server owners using the QBcore framework to easily integrate an in-game marketplace for NFT-based assets like houses and cars. Players connect their crypto wallets, and the NFTs they own automatically appear in-game, granting access to unique assets. https://pixly.games/nftconnect
+[NFTconnect](https://pixly.games/nftconnect)NFTconnect enables FiveM server owners using the QBcore framework to easily integrate an in-game marketplace for NFT-based assets like houses and cars. Players connect their crypto wallets, and the NFTs they own automatically appear in-game, granting access to unique assets.
 
 **Server owners earn 40% of every NFT sale made through the marketplace on their server.**
 
