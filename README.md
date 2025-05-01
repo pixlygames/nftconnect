@@ -89,7 +89,7 @@ NFTconnect securely communicates with our central server to validate player NFTs
 
 ## Support
 
-If you encounter any issues during setup or have questions, please visit [discord]([url](https://discord.gg/7dr9m5AFCF)) our website for contact information:
+If you encounter any issues during setup or have questions, please visit https://discord.gg/7dr9m5AFCF our website for contact information:
 https://pixly.games/nftconnect
 
 If you'd like to include your assets in our NFT marketplace or if you already see them listed — please reach out. We have several programs that may interest you.
