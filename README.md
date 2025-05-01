@@ -2,7 +2,8 @@
 
 [NFTconnect](https://pixly.games/nftconnect) enables FiveM server owners to easily integrate an in-game marketplace for NFT-based assets like houses and cars. Players connect their crypto wallets, and the NFTs they own automatically appear in-game, granting access to unique assets.
 
-**Server owners earn 40% of every NFT sale made through the marketplace on their server.**
+**Server owners earn 40% of every NFT sale made through the marketplace on their server.
+Players can easily store cars/houses on their phones, sell them to other players, and transfer them between different servers.**
 
 Watch the [DEMO](https://www.youtube.com/watch?v=qtUUVqL1xOs).
 
