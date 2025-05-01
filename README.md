@@ -7,6 +7,7 @@ NFTconnect enables FiveM server owners using the QBcore framework to easily inte
 Watch the DEMO: https://www.youtube.com/watch?v=qtUUVqL1xOs.
 
 Cars https://getgems.io/collection/EQBmuQ8GKlpRja2lN6eXqhT1snEaqkmVOxh-lJ3elOFhxukl (will add more)
+
 Houses https://getgems.io/collection/EQD1tMV65CxBUxqGPcjlOB3Aqs9GNOhNdfm1jqDa-2nCpU18 (will add more)
 
 You can test here https://cfx.re/join/va57j5. Just press F12, connect your TON/Telegram wallet, and you’ll receive a free hotel room and a car to start the game.
