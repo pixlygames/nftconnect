@@ -6,6 +6,9 @@ NFTconnect enables FiveM server owners using the QBcore framework to easily inte
 
 Watch the DEMO: https://www.youtube.com/watch?v=qtUUVqL1xOs.
 
+Cars https://getgems.io/collection/EQBmuQ8GKlpRja2lN6eXqhT1snEaqkmVOxh-lJ3elOFhxukl (will add more)
+Houses https://getgems.io/collection/EQD1tMV65CxBUxqGPcjlOB3Aqs9GNOhNdfm1jqDa-2nCpU18 (will add more)
+
 You can test here https://cfx.re/join/va57j5. Just press F12, connect your TON/Telegram wallet, and you’ll receive a free hotel room and a car to start the game.
 
 ## Overview
@@ -88,3 +91,5 @@ NFTconnect securely communicates with our central server to validate player NFTs
 
 If you encounter any issues during setup or have questions, please visit [discord]([url](https://discord.gg/7dr9m5AFCF)) our website for contact information:
 https://pixly.games/nftconnect
+
+If you'd like to include your assets in our NFT marketplace or if you already see them listed — please reach out. We have several programs that may interest you.
