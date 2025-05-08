@@ -27,7 +27,7 @@ This solution consists of several components:
 
 ## Configuration (Mandatory)
 
-**IMPORTANT:** Before starting, you **MUST** configure the `NFTconnect` script with your public TON/Telegram wallet address. Creating wallet takes about 30 seconds. [Watch how](https://www.youtube.com/watch?v=NYM9D2hg8Hw). You can use any TON wallet, if Telegram does not work for you, we recommend [MyTonWallet](https://mytonwallet.io/). 
+**IMPORTANT:** Before starting, you **MUST** configure the `NFTconnect` script with your public TON/Telegram wallet address. Creating wallet takes about 30 seconds we recommend [MyTonWallet](https://mytonwallet.io/). 
 
 1.  Open the `config.lua` file within the `NFTconnect` resource folder.
 2.  Find `Config.ServerBuyerWallet` and enter your public TON/Telegram wallet address.
