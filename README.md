@@ -52,19 +52,18 @@ That's it! NFT cars should now be set up.
 
 If you want both NFT cars and houses, and you already have `ps-housing` installed it's also very easy:
 
-1.  Place the `[MLOs]`, `[shells]`, and `store` folders into your server's `resources` directory.
+1.  Place the `[MLOs]`, `[shells]`, `NFTconnect`, `cars` and `store` folders into your server's `resources` directory.
 2.  **Remove** your existing `ps-housing` and `ps-realtor` resource folders.
 3.  Place the **modified** `ps-housing` and `ps-realtor` folders (provided in the download package) into your `resources` directory.
-4.  Place the `NFTconnect` and `cars` folders into your `resources` directory.
-5.  Ensure `NFTconnect`, `store`, `[MLOs]`, `[shells]`, `cars`, and the **modified** `ps-housing` and `ps-realtor` are started in your `server.cfg`. Remember to respect the original `ps-housing` dependencies and start order (e.g., `ox_lib`, `ps-realtor`, `ps-housing`).
-6.  Run the provided `properties_import.sql` script against your database.
+4.  Ensure `NFTconnect`, `store`, `[MLOs]`, `[shells]`, `cars`, and the **modified** `ps-housing` and `ps-realtor` are started in your `server.cfg`. Remember to respect the original `ps-housing` dependencies and start order (e.g., `ox_lib`, `ps-realtor`, `ps-housing`).
+5.  Run the provided `properties_import.sql` script against your database.
     *   Open HeidiSQL and connect to your database.
     *   Click "File" -> "Load SQL file...".
     *   Select the `properties_import.sql` file from the download package.
     *   Click the "Execute SQL" button (looks like a blue play icon, or press F9).
     *   This script adds property data (locations, doors, images, descriptions, etc.) to your existing `properties` table. It starts adding properties from `property_id` 1001 onwards, so it should not affect existing properties unless you already have over 1000 properties defined.
-7.  Open the `config.lua` file located in your `resources/[qb]/qb-doorlock`. Copy the code from the `config.lua` file provided in the downloaded package and paste it at the end of your existing `qb-doorlock/config.lua`.
-8.  Add the NFT car model names to your `resources/[qb]/qb-core/shared/vehicles.lua` file (copy from the provided `vehicles.lua`).
+6.  Open the `config.lua` file located in your `resources/[qb]/qb-doorlock`. Copy the code from the `config.lua` file provided in the downloaded package and paste it at the end of your existing `qb-doorlock/config.lua`.
+7.  Add the NFT car model names to your `resources/[qb]/qb-core/shared/vehicles.lua` file (copy from the provided `vehicles.lua`).
 
 ### Option 3: NFT Cars & Houses (New ps-housing User)
 
