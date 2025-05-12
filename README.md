@@ -5,7 +5,7 @@
 **Server owners earn 40% of every NFT sale made through the marketplace on their server.
 Players can easily store cars/houses on their phones, sell them to other players, and transfer them between different servers.**
 
-Watch the [DEMO](https://www.youtube.com/watch?v=qtUUVqL1xOs).
+Watch the [DEMO](https://youtu.be/-qqzSkoa_QA?si=F_EBeeKY851D1JbX).
 
 [Cars](https://getgems.io/collection/EQBmuQ8GKlpRja2lN6eXqhT1snEaqkmVOxh-lJ3elOFhxukl) (will add more)
 
