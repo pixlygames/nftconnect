@@ -71,7 +71,7 @@ If you are setting up NFT cars and houses and do **not** currently use `ps-housi
 
 1.  **Install Dependencies & Base ps-housing:** You first need to set up `ps-housing` and its dependencies.
     *   (Optional) You can just watch [this tutorial](https://www.youtube.com/watch?v=yBb4RF9vNt4) for a visual guide on the original `ps-housing` setup:
-    *   **Or read the [official `ps-housing` documentation](https://github.com/Project-Sloth/ps-housing)** for dependencies and the standard installation process:
+    *   **Or read the [official ps-housing documentation](https://github.com/Project-Sloth/ps-housing)** for dependencies and the standard installation process:
     *   **Crucially:** When the instructions tell you to add the `ps-housing` and `ps-realtor` folders and run the SQL, use the **modified** `ps-housing` and `ps-realtor` folders and the `properties.sql` file provided in **our download package**, not the original ones.
 6.  To run the provided `properties.sql` script against your database.
     *   Open HeidiSQL and connect to your database.
