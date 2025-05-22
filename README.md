@@ -36,6 +36,8 @@ This solution consists of several components:
 
 ## Installation
 
+[Watch](https://youtu.be/qyCkAe4xYkY?feature=shared) our installation guide
+
 Choose the installation path that matches your server setup:
 
 ### Option 1: NFT Cars Only (No Houses)
