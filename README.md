@@ -23,7 +23,7 @@ This solution consists of several components:
 *   **Assets**: Includes MLOs, Shells, car models, and the store UI (`[MLOs]`, `[shells]`, `cars`, `store` folders).
 *   **Files to add data for cars and houses**: Includes config.lua, properties_import.sql, properties.sql, vehicles.lua.
 
-**Download all required files [here](https://drive.google.com/drive/folders/1aIIiMnsWhIjrdhCZY1IKlKUtcU6fYy2f?usp=sharing) (GitHub has file limits):**
+**Download all required files [here](https://drive.google.com/file/d/1ZhNUZIToWnF4QYvfiIVi3231TEAddxrP/view?usp=sharing) (GitHub has file limits):**
 
 ## Configuration (Mandatory)
 
@@ -93,3 +93,4 @@ NFTconnect securely communicates with our central server to validate player NFTs
 If you encounter any issues during setup or have questions, please visit [Telegram](https://t.me/pixlygames) or see [website](https://pixly.games/nftconnect) for contact information:
 
 If you'd like to include your assets in our NFT marketplace or if you already see them listed — please reach out. We have several programs that may interest you.
+
