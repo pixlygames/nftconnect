@@ -1,0 +1,32 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NFT Connect</title>
+    <!-- Load TON Connect UI Library -->
+    <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+    <!-- Load JQuery (Required by original script's $.post calls) -->
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <!-- Load our JS logic (index.js is used by original) -->
+    <script src="script.js"></script>
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-color: transparent; margin: 0; padding: 0; display: flex; justify-content: flex-end; align-items: flex-start; height: 100vh; overflow: hidden;">
+    <!-- Main container div, hidden initially -->
+    <div class="OurDiv" style="display: none; padding: 20px; background-color: rgba(0, 0, 0, 0.75); border-radius: 5px; margin: 20px; width: auto; max-width: 300px; min-width: 200px;">
+        <!-- Placeholder where the TON Connect button will be rendered -->
+        <div id="connect-button-root" style="width: fit-content; margin-left: auto; margin-bottom: 15px;"></div>
+        
+        <!-- Placeholder for displaying status or NFT info (optional) -->
+        <div id="status-info" style="margin-top: 10px; color: white; font-family: 'Helvetica', sans-serif; font-size: 0.9em;">
+            Status: <span id="connection-status">Not Connected</span>
+            <div id="nft-display" style="margin-top: 10px; max-height: 150px; overflow-y: auto;">
+                <!-- NFT details could be shown here -->
+            </div>
+        </div>
+    </div>
+
+</body>
+</html> 

@@ -1,0 +1,147 @@
+
+body {
+    color: #fff;
+    font-family: 'Helvetica', sans-serif;
+    display: flex;
+    justify-content: flex-end; /* Position container to top-right */
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent !important;
+    transform-style: preserve-3d;
+    transform-origin: top right; /* Ensure scaling happens from top-right corner */
+}
+
+.OurDiv {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: auto;
+    min-width: 220px;
+    max-width: 350px;
+    margin: 20px;
+    display: none; /* Hidden by default, shown by JS */
+    background: none !important; /* Force no background */
+    border: none !important; /* Force no border */
+    box-shadow: none !important; /* Force no shadow */
+    transform-style: preserve-3d;
+    transform-origin: top right; /* Ensure scaling happens from top-right corner */
+    animation: nft-gentle-float 3s ease-in-out infinite;
+}
+
+/* Style the container for the connect button */
+#connect-button-root {
+    margin-top: 20px; /* Keep some top margin */
+    margin-bottom: 20px;
+    width: fit-content;
+    margin-left: auto;
+    background: none !important; /* Force no background */
+    box-shadow: none !important; /* Force no shadow */
+}
+
+/* Hide potential status elements definitively */
+#connection-status,
+#status-info {
+    display: none !important;
+}
+
+/* Style the area where NFT data will be displayed */
+#nft-display {
+    margin-top: 20px;
+    font-size: 0.9em;
+    max-height: 200px;
+    overflow-y: auto;
+    text-align: left;
+    border-top: 1px solid #444;
+    padding-top: 15px;
+    color: #ccc;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/* NFT item display styles */
+#nft-display div {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+#nft-display div:last-child {
+    border-bottom: none;
+}
+#nft-display p {
+    margin: 5px 0;
+}
+#nft-display img {
+    max-width: 100px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+/* Specific button styling */
+#connect-button-root > button,
+.tc-button {
+    background-color: #0098EA !important; /* TON Blue */
+    color: white !important;
+    border: none !important;
+    padding: 10px 15px !important;
+    border-radius: 5px !important;
+    font-size: 0.95em !important;
+    cursor: pointer !important;
+    transition: background-color 0.3s ease !important;
+    font-family: 'Helvetica', sans-serif !important;
+}
+
+#connect-button-root > button:hover,
+.tc-button:hover {
+    background-color: #007bbd !important;
+}
+
+/* Resolution-based scaling for NFT Connect button - Right side positioning */
+
+/* Animation keyframes - Base animation for 1080p and below (normal size) */
+@keyframes nft-gentle-float {
+    0%, 100% {
+        transform: scale(1.0) perspective(1000px) translateY(0px);
+    }
+    50% {
+        transform: scale(1.0) perspective(1000px) translateY(-4px);
+    }
+}
+
+/* 1440p (2K) scaling - Right side positioning */
+@media screen and (min-width: 1921px) and (max-width: 2560px) {
+    body {
+        margin-right: 10px !important; /* More adjustment for 4K screens */
+        margin-top: -25px !important; /* Move button higher up */
+    }
+    
+    @keyframes nft-gentle-float {
+        0%, 100% {
+            transform: scale(1.2) perspective(1000px) translateY(0px);
+        }
+        50% {
+            transform: scale(1.2) perspective(1000px) translateY(-4px);
+        }
+    }
+}
+
+/* 4K and above scaling - Right side positioning with 1.61x scale (15% bigger than 1.4x) */
+@media screen and (min-width: 2561px) {
+    body {
+        margin-right: 20px !important; /* More adjustment for 4K screens */
+        margin-top: -40px !important; /* Move button higher up */
+    }
+    
+    @keyframes nft-gentle-float {
+        0%, 100% {
+            transform: scale(1.61) perspective(1000px) translateY(0px);
+        }
+        50% {
+            transform: scale(1.61) perspective(1000px) translateY(-4px);
+        }
+    }
+}
