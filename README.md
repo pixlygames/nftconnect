@@ -24,7 +24,7 @@ This solution consists of several components:
 *   **Files to add data for cars and houses**: Includes config.lua, properties_import.sql, properties.sql, vehicles.lua.
 *   **Phone (optional)**: We are using ef-phone which is a nice reskin of qb-phone that works much better with garages and homes (read `readme` in its folder).
 
-**Download all required files [here](https://drive.google.com/file/d/1kk69v7gVQmhnLB71Fil_7EYQynPrgEIM/view?usp=sharing) (GitHub has file limits):**
+**Download all required files [here](https://drive.google.com/file/d/1uIiBM5Ly-JDD8lCoQrnThfVwVnI86Mr8/view?usp=sharing) (GitHub has file limits):**
 
 ## Configuration (Mandatory)
 
@@ -94,6 +94,7 @@ NFTconnect securely communicates with our central server to validate player NFTs
 If you encounter any issues during setup or have questions, please visit [Telegram](https://t.me/pixlygames) or see [website](https://pixly.games/nftconnect) for contact information:
 
 If you'd like to include your assets in our NFT marketplace or if you already see them listed — please reach out. We have several programs that may interest you.
+
 
 
 
