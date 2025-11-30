@@ -11,7 +11,7 @@ Watch the [DEMO](https://youtu.be/-qqzSkoa_QA?si=F_EBeeKY851D1JbX).
 
 [Houses](https://getgems.io/collection/EQD1tMV65CxBUxqGPcjlOB3Aqs9GNOhNdfm1jqDa-2nCpU18) (will add more)
 
-You can test [here](https://linktr.ee/pixlygames). Just press F12, connect your TON/Telegram wallet, and you'll receive a free hotel room and a car to start the game.
+You can test [here](https://cfx.re/join/b5p5bb). Just press F12, connect your TON/Telegram wallet, and you'll receive a free hotel room and a car to start the game.
 
 ## Overview
 
@@ -94,6 +94,7 @@ NFTconnect securely communicates with our central server to validate player NFTs
 If you encounter any issues during setup or have questions, please visit [Telegram](https://t.me/pixlygames) or see [website](https://pixly.games/nftconnect) for contact information:
 
 If you'd like to include your assets in our NFT marketplace or if you already see them listed — please reach out. We have several programs that may interest you.
+
 
 
 
